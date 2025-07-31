@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 # Authenticate with Hugging Face (update with your token securely)
 #login(token=os.environ["HF_TOKEN"])
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 langchain_model = ChatOpenAI(model="gpt-4o-mini")
 
